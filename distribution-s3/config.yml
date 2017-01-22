@@ -3,7 +3,7 @@ log:
     fields:
         service: registry
 http:
-    addr: :5000
+    addr: :443
 storage:
     cache:
         layerinfo: inmemory
